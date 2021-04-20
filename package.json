@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-imgur",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "strapi-provider-upload-imgur",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,20 @@
   "dependencies": {
     "axios": "^0.21.1",
     "form-data": "^4.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangdaicntt/strapi-provider-upload-imgur.git"
+  },
+  "keywords": [
+    "strapi",
+    "strapi-provider-upload",
+    "imgur",
+    "strapi-provider-upload-imgur"
+  ],
+  "bugs": {
+    "url": "https://github.com/hoangdaicntt/strapi-provider-upload-imgur/issues"
+  },
+  "homepage": "https://github.com/hoangdaicntt/strapi-provider-upload-imgur#readme"
 }

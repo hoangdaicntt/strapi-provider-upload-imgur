@@ -1,6 +1,6 @@
-#strapi-provider-upload-imgur
+# strapi-provider-upload-imgur
 
-###Enabling the provider
+### Enabling the provider
 To enable the provider, create or edit the file at ./config/plugins.js
 
 ```
