@@ -8,17 +8,17 @@ module.exports = {
         return {
             upload(file) {
                 return new Promise(async (resolve, reject) => {
-                    var data = new FormData();
-                    data.append('image', file.buffer);
+                    var formData = new FormData();
+                    formData.append('image', file.buffer);
 
                     var config = {
                         method: 'post',
                         url: 'https://api.imgur.com/3/image',
                         headers: {
                             'Authorization': `Client-ID ${clientId}`,
-                            ...data.getHeaders()
+                            ...formData.getHeaders()
                         },
-                        data: data
+                        data: formData
                     };
 
                     const {data, status} = await axios(config).catch(error => {
