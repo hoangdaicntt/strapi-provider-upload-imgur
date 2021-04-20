@@ -1,0 +1,15 @@
+{
+  "name": "strapi-provider-upload-imgur",
+  "version": "1.0.2",
+  "description": "strapi-provider-upload-imgur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hoangdaicntt",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0"
+  }
+}
